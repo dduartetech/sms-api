@@ -19,7 +19,10 @@ public class SmsMessageEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "phoneNumber", length = 11)
+    @Column(name = "message", nullable = false)
+    private String message;
+
+    @Column(name = "phoneNumber", length = 11, nullable = false)
     private String phoneNumber;
 
     @Column(name = "status")
