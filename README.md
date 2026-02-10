@@ -24,5 +24,8 @@ Esta é uma API REST desenvolvida em Java com Spring Boot para gestão e envio d
   "message": "Teste de API",
   "phoneNumber": "11999999999"
 }
+```
 
-☕ Desenvolvido por Diego Duarte
+---
+
+☕ Desenvolvido por [Diego Duarte](https://github.com/dduartetech)
